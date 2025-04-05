@@ -32,7 +32,6 @@ class StartScene extends Phaser.Scene {
             duration: 100,
             onComplete: () => {
               if (!scoreBoxOn) {
- window.open("https://meet.google.com/jqe-fvxr-dht", "_blank");
                 let detailsBox = this.add
                   .image(
                     this.scale.width / 2,
